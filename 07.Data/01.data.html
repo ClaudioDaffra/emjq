@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../lib/jquery-3.2.1.min.js"></script> 
+</head>
+
+   <style>
+  div {
+    margin: 2px;
+    color: blue;
+  }
+  span {
+    color: red;
+  }
+  </style>
+  
+<body>
+
+Look at Console !
+
+<div id="x" class="a">x</div>
+<div id="y" class="a">y</div>
+<div id="z" class="a">z</div>
+
+<div class="b">value1 before creation: <span id="s1"></span></div>
+<div class="b">value1 after creation: <span id="s2"></span></div>
+
+<div class="b">value1 after removal: <span id="s3"></span></div>
+<div class="b">value2 after removal: <span id="s4"></span></div>
+
+<br>ss1:<label id="ss1">_</label>
+<br>ss2:<label id="ss2">_</label>
+
+</body>
+ 
+<script>
+/*
+
+var a = jQuery.data( document.body, "foo", 52 );
+var b = jQuery.data( document.body, "bar", "test" );
+var c = jQuery.data( document.body  );
+
+console.log ( a,b,c ) ;
+
+*/
+/*
+var d = $( "body" ).data( "foo", 52 );
+var e = $( "body" ).data( "bar", { myType: "test", count: 40 } );
+var f = $( "body" ).data( { baz: [ 1, 2, 3 ] } );
+
+var g = $( "body" ).data( "foo" ); // 52
+var h = $( "body" ).data(); // { foo: 52, bar: { myType: "test", count: 40 }, baz: [ 1, 2, 3 ] }
+console.log ( d  ) ; //jQuery
+console.log ( e ) ;//jQuery
+console.log ( f ) ;//jQuery
+console.log ( g ) ;// obj
+console.log ( h ) ;// obj
+*/
+</script>
+ 
+<script src="main.js"></script>
+ 
+</html>
+
+

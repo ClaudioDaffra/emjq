@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="../lib/jquery-3.2.1.min.js"></script> 
+
+<script>
+ 
+objPerson = {
+	name: "John Doe",
+	age: 32,
+	test: function(x)
+	{
+		if (x==undefined) x=1;
+		$("p").after(" Name: " + this.name + "<br> Age: " + this.age*x);
+	}
+};
+ 
+</script>
+</head>
+<body>
+
+<button>Run test function</button>
+
+<p></p>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

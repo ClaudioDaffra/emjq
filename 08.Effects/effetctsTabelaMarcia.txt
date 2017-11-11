@@ -1,0 +1,88 @@
+
+
+								$.fx.interval
+								$.fx.off
+
+								fadein ( duration easing Fcomplete )
+								fadein ( duration Fcomplete )
+								fadein ( options ) 
+								fadein () 
+
+								fadeout ( duration easing Fcomplete )
+								fadeout ( duration Fcomplete )
+								fadeout ( options ) 
+
+								fadeToggle ( duration easing Fcomplete )
+								fadeToggle ( options )
+
+								speed ( duration easing Fcomplete )
+								speed ( duration settings )
+								speed ( settings ) 
+
+								show ( duration easing Fcomplete )
+								show ( duration , Fcomplete )
+								show ( options )
+								show ( )
+
+								hide ( duration easing Fcomplete )
+								hide ( duration , Fcomplete )
+								hide ( options )
+								hide ( )
+
+								slideDown ( duration easing Fcomplete )
+								slideDown ( duration , Fcomplete )
+								slideDown ( options )
+
+								slideUp ( duration easing Fcomplete )
+								slideUp ( duration , Fcomplete )
+								slideUp ( options )
+
+								slideToggle ( duration easing Fcomplete )
+								slideToggle ( duration , Fcomplete )
+								slideToggle ( options )
+
+----------------------------------------------------------------
+								delay ( duration% , queueName$ )
+								delay ( duration%  )
+
+----------------------------------------------------------------
+
+								stop ( queue , clearQueue(bool) , jumptoEnd(bool) )
+								stop ( clearQueue(bool) , jumptoEnd(bool) )
+
+----------------------------------------------------------------
+
+								fadeto ( duration , opacity , easing , Fcomplete )
+								fadeto ( duration , opacity , Fcomplete )
+
+
+.queue( [queueName ], newQueue )
+
+.queue( [queueName ], callbackF )
+.dequeue ( queueName$ ) 
+.dequeue ( ) 
+
+
+.queue( )
+.queue( callback )
+.dequeue ( ) 
+
+----------------------------------------------------------------
+
+								animate( properties , duration , easing , FComplete )
+								animate( properties , options )
+
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

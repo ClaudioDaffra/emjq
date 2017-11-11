@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../lib/jquery-3.2.1.min.js"></script> 
+</head>
+  <style>
+  div {
+    position: relative;
+    background-color: #abc;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+  }
+  </style>
+ 
+<body>
+<hr>
+<button id="clickme"> Click here book1</button>
+
+<img id="book" src="book.jpg" alt="" width="100" height="123"
+  style="position: relative; left: 10px;">
+<hr>
+<p><button id="go">Run »</button></p>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+
+<br>
+<br>
+<br>
+<br>
+<hr>
+<p><button id="start">animate</button></p>
+<p><button id="stop">FadeIn</button></p>
+
+<br>
+<div id="xyz" style="width:80px;height:80px;background-color:silver;"></div><br>
+<br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+<div id="div4" style="width:80px;height:80px;display:none;background-color:gold;"></div>
+
+
+</body>
+ 
+
+ 
+<script >
+/* 
+$( "#clickme" ).click(function() 
+{
+  $( "#book" ).animate(
+  {
+    opacity: 0.25,
+    left: "+=50",
+    height: "toggle"
+  }, 5000, function() 
+  {
+    // Animation complete.
+  });
+});
+  
+ 
+$( "#go" ).click(function() {
+  $( ".block:first" ).animate({
+    left: 100
+  }, {
+    duration: 1000,
+    step: function( now, fx ){
+      $( ".block:gt(0)" ).css( "left", now );
+    }
+  });
+});
+*/ 
+</script>
+ 
+<script src="main.js"></script> 
+ 
+</html>
+
+
